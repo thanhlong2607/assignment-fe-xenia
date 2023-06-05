@@ -1,0 +1,132 @@
+{
+  "language": "Language",
+  "common": {
+    "no": "No",
+    "all": "All",
+    "save": "Save",
+    "name": "Name",
+    "note": "Note",
+    "add_row": "Add row",
+    "remove_row": "Remove row",
+    "per": "Per",
+    "got_it": "Got it",
+    "delete": "Delete",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "active": "Active",
+    "total": "Total",
+    "search": "Search",
+    "search_here": "Search here",
+    "export": "Export",
+    "download": "Download",
+    "failed": "Failed",
+    "success": "Success",
+    "create": "Create",
+    "validate_failed": "Validation Failed"
+  },
+  "status": {
+    "new": "New",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "pending": "Pending",
+    "revoked": "Revoked",
+    "transferred": "Transferred",
+    "draft": "Draft",
+    "apply": "Apply"
+  },
+  "get_started": {
+    "title": "System Management Cars Xenia",
+    "get_started": "Admin Login"
+  },
+  
+    
+  "sign_in": {
+    "log_in": "Log in",
+    "login_title": "Please enter your username and password",
+    "email_address": "Email address",
+    "email_address_placeholder": "Enter your email address",
+    "password": "Password",
+    "forgot_password": "Forgot password",
+    "account_issues": "Account issues",
+    "sign_in": "Sign in",
+    "not_registered": "Not registered"
+  },
+  "sign_out": {
+    "sign_out": "Sign out",
+    "log_out": "Log out"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "cars": "Cars",
+    "bookings": "Bookings",
+    "new_application": "New application",
+    "settings": "Settings"
+  },
+ 
+  "dashboard": {
+    "user_manual": "User manual",
+    "applications": "Applications",
+    "latest_applications": "Latest Applications",
+    "export_list": "Export list",
+    "new_application": "New application",
+    "food_import": "Food import",
+    "other_import": "Other import",
+    "my_profile": "My profile",
+    "edit_profile": "Edit profile",
+    "setting": "Setting",
+    "company_members": "Company members",
+    "view_all_applications": "View all applications"
+  },
+  
+  "user": {
+    "new_user": "Add New User",
+    "tableDL": {
+      "first_name": "First name",
+      "last_name": "Last name",
+      "dob": "Date of Birth",
+      "email": "Email",
+      "phone_number": "Phone number",
+      "country_code": "Country code",
+      "status": "Status",
+      "password": "Password"
+    },
+    "detail_title": "User detail"
+  },
+  "car": {
+    "new_car": "Add New Car",
+    "tableDL": {
+      "name": "Name",
+      "branch": "Branch",
+      "car_number": "Car number",
+      "price": "Price",
+      "status": "Status",
+      "year": "Year",
+      "build": "Build",
+      "mode": "Mode",
+      "address": "Address",
+      "is_feature": "Feature",
+      "user": "UserId",
+      "created_at": "Date Created"
+    },
+    "detail_title": "Car detail"
+   
+  },
+  "booking": {
+    "new_booking": "Add New Booking",
+    "tableDL": {
+      "reference_no": "Reference No",
+      "request_start_at": "Request Start At",
+      "request_end_at": "Request End At",
+      "pricePerDay": "Price Per Day",
+      "totalPrice": "Amount",
+      "status": "Status",
+      "user": "User Info",
+      "dateRange": "Date Range",
+      "car": "Car Info",
+      "created_at": "Date Created"
+    },
+    "detail_title": "Car detail"
+   
+  }
+}

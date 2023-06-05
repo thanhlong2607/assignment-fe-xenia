@@ -1,0 +1,15 @@
+.el-select {
+  .el-input.is-focus .el-input__wrapper{
+    box-shadow: none !important;
+  }
+  .el-input__wrapper.is-focus{
+    box-shadow: none !important;
+  }
+}
+.el-select-dropdown__item.selected{
+  color: #40AB6B !important;
+}
+.el-input-group--prepend .el-input-group__prepend .el-select .el-input.is-focus .el-input__wrapper{
+  box-shadow: none !important;
+  border: 1px solid #B3B3B3;
+}

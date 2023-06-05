@@ -1,0 +1,15 @@
+.el-checkbox{
+  height: auto ;
+}
+.el-checkbox__inner{
+  &:hover, &:focus{
+    border-color: #40AB6B !important;
+  }
+}
+.el-checkbox__label{
+  @apply text-sm text-neutral-07 #{!important};
+}
+.el-checkbox__input.is-checked .el-checkbox__inner{
+  border-color: #40AB6B !important;
+  background-color: #40AB6B !important;
+}

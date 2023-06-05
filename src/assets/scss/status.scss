@@ -1,0 +1,37 @@
+.status-tag{
+  div{
+    font-weight: 700;
+    font-size: 0.625rem;
+    line-height: 150%;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  display: flex;
+  justify-content: center;
+  .new{
+    @apply text-white bg-reject;
+  }
+  .approved{
+    @apply text-approved bg-approve-background;
+  }
+  .rejected{
+    @apply text-reject bg-reject-background;
+  }
+  .pending{
+    @apply text-pending bg-pending-background;
+  }
+  .revoked{
+    @apply text-revoked bg-revoked-background;
+  }
+  .transferred{
+    @apply text-transferred bg-transferred-background;
+  }
+  .draft{
+    @apply text-draft bg-draft-background;
+  }
+  .expired{
+    @apply text-white bg-neutral-04;
+  }
+}

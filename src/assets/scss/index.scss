@@ -1,0 +1,18 @@
+@import "./element-ui/index.scss";
+@import "./element-ui/button.scss";
+@import "./element-ui/radio.scss";
+@import "./element-ui/input.scss";
+@import "./element-ui/select.scss";
+@import "./element-ui/form.scss";
+@import "./element-ui/checkbox.scss";
+@import "./element-ui/table.scss";
+@import "./element-ui/menu.scss";
+
+@import "./status.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  // font-family: 'Helvetica Now Display';
+}

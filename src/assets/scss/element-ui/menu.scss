@@ -1,0 +1,30 @@
+.el-menu{
+  border: none !important;
+}
+.el-menu-item{
+  border-radius: 4px;
+  gap: 1rem;
+  &:hover{
+    background: #F0F9F9;
+  }
+  .menu-active{
+    display: none;
+  }
+  .menu-inactive{
+    display: block;
+  }
+  &.is-active{
+    background: #F0F9F9;
+    .menu-active{
+      display: block;
+    }
+    .menu-inactive{
+      display: none;
+    }
+  }
+  .menu-label{
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 150%;
+  }
+}

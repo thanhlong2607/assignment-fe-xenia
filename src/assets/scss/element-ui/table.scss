@@ -1,0 +1,18 @@
+.el-table{
+  th{
+    background: #EDEDED !important;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #7C7C7C;
+  }
+  td{
+    @apply text-neutral-07 font-medium text-sm;
+  }
+  th, td{
+    padding: 12px 16px !important;
+  }
+  .cell{
+    padding: 0 !important;
+    word-break: break-word !important;
+  }
+}

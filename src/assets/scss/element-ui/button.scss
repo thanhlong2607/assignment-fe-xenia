@@ -1,0 +1,74 @@
+.el-button{
+  @apply text-blue-main border-blue-main #{!important};
+  background: #fff !important;
+  border: 1px solid !important;
+  padding: 16px 32px;
+  height: 56px;
+  &.small{
+    height: 42px;
+    padding: 12px 18px;
+  }
+  &.gray{
+    @apply text-neutral-05 border-neutral-05 #{!important} 
+  }
+  &.red{
+    @apply text-reject border-reject #{!important} 
+  }
+  span{
+    @apply flex gap-3 items-center;
+  }
+  &:hover, &:focus{
+    @apply bg-blue-background #{!important};
+    border: 1px solid #127888 !important;
+  }
+  &:active{
+    border: 1px solid #0B4852 !important;
+  }
+  &.is-disabled{
+    border: 1px solid #EBEBEB !important;
+    color: #D1D1D1 !important;
+  }
+  &.el-button--primary{
+    color: #fff !important;
+    padding: 16px 40px;
+    background: #1590A3 !important;
+    border: 1px solid transparent !important;
+    &:hover, &:focus{
+      background: #127888 !important;
+    }
+    &:active{
+      background: #0B4852 !important;
+    }
+    &.is-disabled{
+      background: #EBEBEB !important;
+      color: #D1D1D1 !important;
+    }
+  }
+
+  &.warning-button{
+    color: #1590A3 !important;
+    background: #fff !important;
+    border: 1px solid #F68A1E !important;
+    &:hover, &:focus{
+      border: 1px solid #f38518 !important;
+    }
+    &:active{
+      border: 1px solid #f17d08 !important;
+    }
+    &.el-button--primary{
+      color: #fff !important;
+      background: #F68A1E !important;
+      border: 1px solid transparent !important;
+      &:hover, &:focus{
+        background: #f38518 !important;
+      }
+      &:active{
+        background: #f17d08 !important;
+      }
+      &.is-disabled{
+        background: #EBEBEB !important;
+        color: #D1D1D1 !important;
+      }
+    }
+  }
+}
